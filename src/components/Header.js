@@ -63,7 +63,7 @@ const Header = () => {
 return (
     <>
 
-<div id="preloader"></div>
+{/* <div id="preloader"></div> */}
 <header className="header">
   <a href="#" className="logo">Portfolio</a>
   <i className='bx bx-menu' id="menu-icon"></i>
