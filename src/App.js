@@ -50,8 +50,7 @@ const App = () => {
   return (
     <>
      <div>
-        <div id="preloader"></div>
-      
+        {/* <div id="preloader"></div> */}
       <Header />
       <Home />
       <About />
