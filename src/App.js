@@ -54,11 +54,11 @@ const App = () => {
 
   return (
     <>
-     <div>
+     {/* <div>
       {loading ? (
         <div id="preloader">Loading...</div>
       ) : (
-        <div>
+        <div> */}
           
       <Header />
       <Home />
@@ -68,9 +68,9 @@ const App = () => {
       <Contact />
       <Footer />
 
-        </div>
+        {/* </div>
       )}
-    </div>
+    </div> */}
       
     </>
   );
