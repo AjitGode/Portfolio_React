@@ -44,17 +44,26 @@ const Header = () => {
         };
     
         window.addEventListener('scroll', handleScroll);
-        
 
+        //Preloader  
+
+        const loader = document.getElementById('preloader');
+
+        window.addEventListener("load",function(){
+            loader.style.display="none";
+        })
     
         return () => {
           window.removeEventListener('scroll', handleScroll);
         };
+
+        
       }, []);
     
 return (
     <>
 
+<div id="preloader"></div>
 <header className="header">
   <a href="#" className="logo">Portfolio</a>
   <i className='bx bx-menu' id="menu-icon"></i>

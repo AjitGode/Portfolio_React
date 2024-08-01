@@ -14,12 +14,6 @@ const App = () => {
 
   useEffect(() => {
     // Add event listener to window load event
-    const loader = document.getElementById('preloader');
-
-    window.addEventListener("load",function(){
-        loader.style.display="none";
-    })
-
    const sr =  ScrollReveal({
        distance:'80px',
        duration:2000,
@@ -33,6 +27,7 @@ const App = () => {
         sr.reveal('.home-content h1, .about-img', { origin: 'left' });
         sr.reveal('.home-content p, .about-content', { origin: 'right' });
 
+        // title Change when tab change
 
         const docTitle = document.title;
         window.addEventListener("blur",()=>{
@@ -42,7 +37,7 @@ const App = () => {
             document.title =docTitle;
         })
 
-    // title Change when tab change
+    
 
 
   }, []);
@@ -50,7 +45,7 @@ const App = () => {
   return (
     <>
      <div>
-        {/* <div id="preloader"></div> */}
+        
       <Header />
       <Home />
       <About />
