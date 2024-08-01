@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/AjitGode.github.io/Portfolio_React/static/css/main.50688b8c.css",
-    "main.js": "/AjitGode.github.io/Portfolio_React/static/js/main.35d041fa.js",
-    "static/js/453.1407b060.chunk.js": "/AjitGode.github.io/Portfolio_React/static/js/453.1407b060.chunk.js",
-    "static/media/Ripple.gif": "/AjitGode.github.io/Portfolio_React/static/media/Ripple.19c3b92eafd1801cc3c3.gif",
-    "index.html": "/AjitGode.github.io/Portfolio_React/index.html",
-    "main.50688b8c.css.map": "/AjitGode.github.io/Portfolio_React/static/css/main.50688b8c.css.map",
-    "main.35d041fa.js.map": "/AjitGode.github.io/Portfolio_React/static/js/main.35d041fa.js.map",
-    "453.1407b060.chunk.js.map": "/AjitGode.github.io/Portfolio_React/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/Portfolio_React/static/css/main.e1928859.css",
+    "main.js": "/Portfolio_React/static/js/main.56ba62ec.js",
+    "static/js/453.1407b060.chunk.js": "/Portfolio_React/static/js/453.1407b060.chunk.js",
+    "static/media/Ripple.gif": "/Portfolio_React/static/media/Ripple.19c3b92eafd1801cc3c3.gif",
+    "index.html": "/Portfolio_React/index.html",
+    "main.e1928859.css.map": "/Portfolio_React/static/css/main.e1928859.css.map",
+    "main.56ba62ec.js.map": "/Portfolio_React/static/js/main.56ba62ec.js.map",
+    "453.1407b060.chunk.js.map": "/Portfolio_React/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.50688b8c.css",
-    "static/js/main.35d041fa.js"
+    "static/css/main.e1928859.css",
+    "static/js/main.56ba62ec.js"
   ]
 }
