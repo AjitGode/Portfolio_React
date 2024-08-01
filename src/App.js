@@ -12,13 +12,13 @@ import Footer from './components/Footer';
 
 const App = () => {
 
-  const [loading, setLoading] = useState(true); // Initialize loading state to true
-
   useEffect(() => {
     // Add event listener to window load event
-    const handleLoad = () => setLoading(false);
+    const loader = document.getElementById('preloader');
 
-    window.addEventListener('load', handleLoad);
+    window.addEventListener("load",function(){
+        loader.style.display="none";
+    })
 
    const sr =  ScrollReveal({
        distance:'80px',
@@ -42,11 +42,6 @@ const App = () => {
             document.title =docTitle;
         })
 
-    // Cleanup the event listener when the component unmounts
-    return () => {
-      window.removeEventListener('load', handleLoad);
-    };
-
     // title Change when tab change
 
 
@@ -54,12 +49,9 @@ const App = () => {
 
   return (
     <>
-     {/* <div>
-      {loading ? (
-        <div id="preloader">Loading...</div>
-      ) : (
-        <div> */}
-          
+     <div>
+        <div id="preloader"></div>
+      
       <Header />
       <Home />
       <About />
@@ -68,9 +60,7 @@ const App = () => {
       <Contact />
       <Footer />
 
-        {/* </div>
-      )}
-    </div> */}
+    </div>
       
     </>
   );
