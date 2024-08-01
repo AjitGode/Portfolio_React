@@ -34,7 +34,7 @@ const Home = ()=>{
           <a href='./assets/Ajit_Gode_Resume01.pdf' download="Ajit_Gode.pdf" className="btn">Download CV</a>
         </div>
         <div className="home-img">
-          <img src="./assets/Home12.png" alt="Home" />
+          <img src='./assets/Home12.png' alt="Home" />
         </div>
       </section>
         
