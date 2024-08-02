@@ -23,7 +23,7 @@ const Home = ()=>{
           <h3>Hello, It's Me</h3>
           <h1>Ajit Gode</h1>
           <h3>And I'm a <span className="multiple-text"></span></h3>
-          <p>Hi, I'm Ajit Gode, Currently working as Test Engineer and also I have 6 months of work experience in front-end development. I'm also well known for implementing new UI animated templates & open source projects.</p>
+          <p>A dedicated QA Developer with a passion for ensuring software product quality and development. As a fresher in the industry, I specialize in automation testing and development using tools like Cypress and Playwright. I am committed to continuous learning and staying updated with the latest technologies in the field.</p>
           <div className="social-media">
             <a href="https://www.facebook.com/Godeajit25" target="_blank" rel="noopener noreferrer"><i className='bx bxl-facebook'></i></a>
             <a href="https://twitter.com/godeajit25?t=xaEZbUnzXIjNRD7rb_DoBw&s=09" target="_blank" rel="noopener noreferrer"><i className='bx bxl-twitter'></i></a>
