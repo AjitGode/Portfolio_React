@@ -15,6 +15,13 @@ const App = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+
+
+        // Simulate a data fetch
+          setTimeout(() => {
+           setLoading(false);
+        }, 2000); // 3 seconds
+
     // Add event listener to window load event
    const sr =  ScrollReveal({
        distance:'80px',
@@ -30,11 +37,6 @@ const App = () => {
         sr.reveal('.home-content p, .about-content', { origin: 'right' });
 
 
-
-          // Simulate a data fetch
-          setTimeout(() => {
-            setLoading(false);
-          }, 3000); // 3 seconds
 
         // title Change when tab change
 
