@@ -9,18 +9,13 @@ import Services from './components/Services';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Loader from './components/Loader';
+
 
 const App = () => {
-  const [loading, setLoading] = useState(true);
+
 
   useEffect(() => {
 
-
-        // Simulate a data fetch
-          setTimeout(() => {
-           setLoading(false);
-        }, 2000); // 3 seconds
 
     // Add event listener to window load event
    const sr =  ScrollReveal({
@@ -57,11 +52,7 @@ const App = () => {
     <>
      <div>
         
-     <div>
-      {loading ? (
-        <Loader />
-      ) : (
-        <div>
+ 
       <Header />
       <Home />
       <About />
@@ -69,11 +60,9 @@ const App = () => {
       <Portfolio />
       <Contact />
       <Footer />
+      
         </div>
-      )}
-    </div>
-
-    </div>
+  
       
     </>
   );
