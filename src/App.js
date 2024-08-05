@@ -9,8 +9,10 @@ import Services from './components/Services';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Loader from './components/Loader';
 
 const App = () => {
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     // Add event listener to window load event
@@ -26,6 +28,13 @@ const App = () => {
         sr.reveal('.home-img, .services-container, .portfolio-box, .contact form', { origin: 'bottom' });
         sr.reveal('.home-content h1, .about-img', { origin: 'left' });
         sr.reveal('.home-content p, .about-content', { origin: 'right' });
+
+
+
+          // Simulate a data fetch
+          setTimeout(() => {
+            setLoading(false);
+          }, 3000); // 3 seconds
 
         // title Change when tab change
 
@@ -46,6 +55,11 @@ const App = () => {
     <>
      <div>
         
+     <div>
+      {loading ? (
+        <Loader />
+      ) : (
+        <div>
       <Header />
       <Home />
       <About />
@@ -53,6 +67,9 @@ const App = () => {
       <Portfolio />
       <Contact />
       <Footer />
+        </div>
+      )}
+    </div>
 
     </div>
       
