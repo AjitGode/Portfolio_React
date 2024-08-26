@@ -31,7 +31,7 @@ const Home = ()=>{
             <a href="https://www.linkedin.com/in/ajit-gode-566495157/" target="_blank" rel="noopener noreferrer"><i className='bx bxl-linkedin-square'></i></a>
             <a href="https://github.com/AjitGode" target="_blank" rel="noopener noreferrer"><i className='bx bxl-github'></i></a>
           </div>
-          <a href='./assets/Ajit-Gode-Playwright' download="Ajit_Gode.pdf" className="btn">Download CV</a>
+          <a href='https://drive.google.com/file/d/1paDlCUKAYfHTrDG4WSK45BWZZ9-gjj7A/view?usp=sharing' download="Ajit_Gode.pdf" className="btn">Download CV</a>
         </div>
         <div className="home-img">
           <img src='./assets/Home12.png' alt="Home" />
