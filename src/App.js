@@ -52,7 +52,6 @@ const App = () => {
     <>
      <div>
         
- 
       <Header />
       <Home />
       <About />
@@ -60,7 +59,7 @@ const App = () => {
       <Portfolio />
       <Contact />
       <Footer />
-      
+
         </div>
   
       
