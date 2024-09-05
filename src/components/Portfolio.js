@@ -11,7 +11,7 @@ const Portfolio = ()=>{
             { img: 'portfolio1.jpg', title: 'INSTITUTE MANAGEMENT SYSTEM', desc: 'Institute Management system is designed for managing and storing all the data available in the institute. It involves login of employee. The website helps maintaining institute data like adding institute data, enrollment data, course data, user data.', link: 'https://github.com/AjitGode/AngularProject' },
             { img: 'portfolio2.jpg', title: 'BLOOD BANK MANAGEMENT SYSTEM', desc: 'It is a Web Application that helps us to find blood group with its most efficient time to take care of the blood and it is easy to hand over the blood to the hospitals to help people to get rid of their problems.', link: 'https://github.com/AjitGode/BloodBank' },
             { img: 'portfolio3.jpg', title: 'PORTFOLIO', desc: 'My Portfolio website which contains all the information about me, like my work experience, skills, contact info, and other related information.', link: 'https://github.com/AjitGode' },
-            { img: 'portfolio4.jpg', title: 'DASHBOARD', desc: 'A dashboard for managing data and visualizing it in a user-friendly way.', link: 'https://github.com/AjitGode/Dashboard' }
+            { img: 'portfolio4.jpg', title: 'Jobseeker', desc: 'A Jobseeker website for managing data and visualizing it in a user-friendly way.', link: 'https://github.com/AjitGode/Jobseeker.git' }
           ].map((project, index) => (
             <div className="portfolio-box" key={index}>
               <div className="portfolio-img">
