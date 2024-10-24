@@ -13,7 +13,6 @@ const Portfolio = ()=>{
             { img: 'portfolio2.jpg', title: 'BLOOD BANK MANAGEMENT SYSTEM', desc: 'It is a Web Application that helps us to find blood group with its most efficient time to take care of the blood and it is easy to hand over the blood to the hospitals to help people to get rid of their problems.', link: 'https://github.com/AjitGode/BloodBank' },
             { img: 'portfolio3.jpg', title: 'PORTFOLIO', desc: 'My Portfolio website which contains all the information about me, like my work experience, skills, contact info, and other related information.', link: 'https://ajitgode.github.io/Portfolio_React/' },
             { img: 'portfolio4.jpg', title: 'Jobseeker', desc: 'A Jobseeker website for managing data and visualizing it in a user-friendly way.', link: 'https://github.com/AjitGode/Jobseeker.git' },
-            { img: 'bg-remover.png', title: 'Bg-remover', desc: 'I have creating a Background Removal App that allows users to upload an image. Then our app will process the image and remove the background using AI and then user can download the image with a transparent background.', link: 'https://bg-remover-beige.vercel.app/' }
           ].map((project, index) => (
             <div className="portfolio-box" key={index}>
               <div className="portfolio-img">
