@@ -8,5 +8,5 @@ export const sendEmail = async (formData) => {
     message: formData.message
   };
 
-  return emailjs.send('service_7obmzqg', 'template_sdjh1u7', templateParams, '8Eup-X-nZHCrR5RGg');
+  return emailjs.send('service_7obmzqg', 'template_sdjh1u7', templateParams, 'ljrg2HzXzm5dCjmpg');
 };
